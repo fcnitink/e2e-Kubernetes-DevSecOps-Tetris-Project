@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "testcfdev1"
     region         = "us-east-1"
-    key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
+    key            = "e2e-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
     encrypt        = false
   }
   required_version = ">=0.13.0"
